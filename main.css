@@ -1,0 +1,77 @@
+header {
+    padding: 5px;
+}
+
+body{
+    background-color: white;
+    padding: 5px;
+}
+
+footer{
+    padding: 5px;
+}
+
+#divInFooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;		
+}
+
+.buttonMetOverschrevenBootstrap{
+    font-size: 26px;
+    width: 180px;
+    Margin: 5px;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    width: 120px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    background-color: lightblue;
+}
+
+li:hover{
+    background-color: blue;
+    border-style: none;
+}
+
+.IdVanContactformulier {
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+    display: inline-block;
+    margin: 15px 0px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+textarea{
+    height: 100px;
+    width: 200px;
+    padding: 5px 4px;
+}
+
+button{
+    display: inline-block;
+    width: 90%;
+    background-color: lightblue;
+}
+
+button:active{
+    background-color: blue;
+    color: lightblue;
+    border-radius: 4px;
+}
+
+
+
